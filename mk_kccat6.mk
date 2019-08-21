@@ -17,8 +17,8 @@
 
 $(call inherit-product, device/samsung/kccat6/full_kccat6.mk)
 
-# Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common MK phone.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := kccat6
-PRODUCT_NAME := lineage_kccat6
+PRODUCT_NAME := mk_kccat6

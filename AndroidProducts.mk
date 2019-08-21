@@ -19,5 +19,5 @@ ifneq ($(RR_BUILD),)
         $(LOCAL_DIR)/rr_kccat6.mk
 else
     PRODUCT_MAKEFILES += \
-        $(LOCAL_DIR)/lineage_kccat6.mk
+        $(LOCAL_DIR)/mk_kccat6.mk
 endif
